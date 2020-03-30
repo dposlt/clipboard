@@ -14,4 +14,6 @@ def clipboard(source):
     #print(t)
 #readTxt('clipboard.txt')
 
-clipboard(readTxt('clipboard.txt'))
+
+if __name__ == '__main__':
+    clipboard(readTxt('clipboard.txt'))
